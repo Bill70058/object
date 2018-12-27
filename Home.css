@@ -1,0 +1,268 @@
+body{ 
+    font-family: sans-serif;
+    font-size: medium;
+    margin: 0px;  
+}     
+
+div#container{         
+    overflow: auto;/*容器大小自适应*/     
+}       
+div#autoAll{
+    position:absolute;
+    left:50%;
+    top: 30%;
+    width:910px; /*你的实际页面的宽度*/
+    margin-top:-270px;  
+    margin-left: -455px; /*455为整体width(这里是910)的一半*/
+    
+}
+header{   
+	position: relative;
+	left: -170px;
+    border: 1px solid white;       
+    height:76px;   
+    width: 1200px;  
+    margin: 1px;
+}       
+
+nav {
+	position: relative;
+	left: -170px;
+	width: 1200px;
+}
+aside{      
+    width:300px;    
+    height:auto;   
+    /* border: 1px solid red;/*简写*/ 
+    position: absolute;
+    left: -20%;
+    top: 100%;
+    /* float: left;     */
+    display: table-cell; 
+    padding: 15px;
+    vertical-align: top;
+
+}    
+div#content{   
+    /* width:1119px;   
+    height:520px;       */
+    width: 65%;
+    height: auto;
+    position: absolute;
+    left: 15%;
+    top: 100%;
+    border: 1px solid white;       
+    float: right;/*浮动*/    
+}    
+footer{  
+    width: 100%;
+    position: absolute;
+    margin-bottom: -1000px;
+    bottom: 0;
+    height: 120px;  
+    border: 1px solid white;    
+    clear: both;/*清除左右侧浮动*/ 
+   }
+footer p{
+    text-align: center;
+}
+
+a:link {
+    color:black;
+}
+.IconFont {
+    font-weight: 900;
+}
+
+div#Textborder {
+    margin: 10px;
+}
+
+div#TextContent {
+    /* color: #C0C0C0; */
+    color: red;
+}
+
+/*视频资源文件样式*/
+div#advertising {
+    
+}
+
+div#logo {
+    /* border: 1px solid black; */
+    left: 30%;
+    top: 30%;
+    width: 580px;
+    height: 180px;
+}
+
+div#dingwei {
+    position: fixed;
+    left: 0px;
+    top: 20%;
+    height: 240px;
+    width: 120px;
+}
+
+div#dingwei2 {
+	position: fixed;
+    right: 0px;
+    top: 20%;
+    height: 240px;
+    width: 120px;
+}
+
+div#news {
+	position: absolute;
+	right: -15%;
+	top: 100%;
+	/*border: 1px #000000 solid;*/
+	height: 600px;
+	width: 300px;
+	/*background-color: #000000;*/
+}
+
+span#headTitle {
+	color: #000000;
+	font-family: sans-serif;
+	font-size: 16px;
+}
+
+span#headLeft {
+	color: blue;
+	position: relative;
+	left: 200px;
+}
+.green {
+	/*border: 1px #000000 solid;*/
+	height: 15px;
+	width: 30px;
+	font-size: small;
+	color: darkgreen;
+	/*background-color: #98FB98;*/
+	background-color: rgb(75,226,207);
+}
+
+.greentlybg {
+	/*border: 1px #000000 solid;*/
+	height: 30px;
+	width: 30px;
+	font-size: medium;
+	/*background-color: #F0FFF0;*/
+	background-color: rgb(176,242,234);
+	color: green;
+	text-align: center;
+}
+.greenText {
+	height: 40px;
+	width: 180px;
+	/*border: 1px #000000 solid;*/
+	position: relative;
+	top: -40px;
+	left: 40px;
+	font-size: small;
+}
+.greenfooter {
+	color: grey;
+	font-size: small;
+	position: relative;
+	top: -20px;
+	
+}
+
+.newsTitle {
+	position: relative;
+	top: -13px;
+}
+
+.brokenLine {
+	border-bottom: thin dotted #888888; 
+	position: relative;
+	top: -20px;
+}
+
+.orange {
+	color: orange;
+}
+
+.imgPhoto 
+{
+	height: 25px;
+	width: 25px;
+}
+
+.logIn {
+	color: black;
+	font-size: 16px;
+	position: relative;
+	right: -530px;
+	top: -25px;
+}
+
+.li span a {
+	color: black;
+}
+
+.weather{
+	float: right;
+	right: 0;
+	
+}
+
+
+/* 
+table {
+    border-collapse: separate;
+    border-spacing: 100px 30px;
+} */
+
+.resource {
+    /* border: 1px #000000 solid; */
+    height: 100px;
+    width: 150px;
+}
+
+div#image{
+    border: 1px #000000 solid;
+    height: 230px;      /*改为auto*/
+    width: 1000px;
+}
+
+
+.images {
+    /* border: 1px #000000 solid; */
+    height: 200px;
+    width: 200px;
+}
+
+.middle {
+    /* border: 1px green solid; */
+    height: 200px;
+    width: 10px;
+}
+
+.crack {
+    /* border: 1px #888888 solid; */
+    width: 1000px;
+    height: 10px;
+}
+
+.page {
+    /* border: 1px #000000 solid; */
+    width: 20px;
+    height: 20px;
+    font-size: 16px;
+}
+
+div#tp-weather-widget{
+    position: relative;
+    left: 50%;
+    top: 30px;
+    background-color: #000000;
+}
+
+div#music {
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+}

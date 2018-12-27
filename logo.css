@@ -1,0 +1,23 @@
+*{
+    margin: 0px 0px;
+    padding:0px 0px;
+}
+.scroll_div {
+    display: inherit;
+    left: 40%;
+    top: 30%;
+    width:580px;
+    height:180px;
+    margin:0 0;
+    overflow: hidden;
+    white-space: nowrap;
+    background:#ffffff;
+}
+.scroll_div img {
+    width:580px;
+    height:180px;
+}
+#scroll_begin, #scroll_end, #scroll_begin ul, #scroll_end ul, #scroll_begin ul li, #scroll_end ul li{
+    display:inline;
+}/*设置ul和li横排*/
+ 
